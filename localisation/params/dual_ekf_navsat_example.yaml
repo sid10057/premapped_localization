@@ -9,7 +9,7 @@ ekf_se_odom:
   print_diagnostics: true
   debug: true
   publish_tf: true
-  dynamic_process_noise_covariance: true
+  dynamic_process_noise_covariance: false
 
   map_frame: map
   odom_frame: odom
@@ -81,7 +81,7 @@ ekf_se_map:
   transform_timeout: 0.0
   print_diagnostics: true
   debug: true
-  dynamic_process_noise_covariance: true
+  dynamic_process_noise_covariance: false
   
 
   map_frame: map

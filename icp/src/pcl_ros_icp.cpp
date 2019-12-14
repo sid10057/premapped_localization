@@ -26,8 +26,6 @@ Eigen::Matrix4f cumm_transform;
 pcl::PointCloud<pcl::PointXYZ>::Ptr transformed_cloud(new pcl::PointCloud<pcl::PointXYZ>);
 pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_out (new pcl::PointCloud<pcl::PointXYZ>);
 pcl::PCLPointCloud2 pcl_pc2;
-
-
 void do_pcl()
 {
     static tf::TransformBroadcaster br;
